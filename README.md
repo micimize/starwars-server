@@ -1,5 +1,7 @@
 # Star Wars example server
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/apollographql/starwars-server.svg)](https://greenkeeper.io/)
+
 This is a really simple GraphQL server that uses [Apollo Server](https://github.com/apollostack/apollo-server) and [GraphQL Tools](https://github.com/apollostack/graphql-tools) to serve the Star Wars example schema from http://www.graphql.org.
 
 ## Installation
