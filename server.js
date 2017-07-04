@@ -1,5 +1,6 @@
 import express from 'express';
-import { graphqlExpress, graphiqlExpress } from 'graphql-server-express';
+import { graphqlExpress, graphiqlExpress } from 'apollo-server-express';
+
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import { createServer } from 'http';
@@ -17,6 +18,7 @@ const graphQLServer = express().use('*', cors());
 graphQLServer.use('/graphql', bodyParser.json(), graphqlExpress({
   schema,
   context: {},
+  tracing: true,
 }));
 
 graphQLServer.use('/graphiql', graphiqlExpress({
