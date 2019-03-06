@@ -1,9 +1,10 @@
+#!/usr/bin/env node
 import express from "express";
 import { ApolloServer } from "apollo-server-express";
 import { createServer } from "http";
 import cors from "cors";
 
-import schema from "./data";
+import schema from "./data/schema";
 
 const PORT = process.env.PORT || 8080;
 
