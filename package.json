@@ -1,9 +1,10 @@
 {
   "name": "starwars-test-graphql-server",
-  "version": "0.2.0-alpha1",
+  "version": "0.2.0-alpha3",
   "description": "GraphQL Server with an example Star Wars schema",
   "bin": "./lib/server.js",
   "files": [
+    "lib/",
     "data.json",
     "schema.graphql"
   ],
