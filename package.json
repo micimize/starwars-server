@@ -4,6 +4,7 @@
   "description": "GraphQL Server setup with an example Star Wars schema",
   "bin": "./lib/server.js",
   "files": [
+    "lib/",
     "data.json",
     "schema.graphql"
   ],
